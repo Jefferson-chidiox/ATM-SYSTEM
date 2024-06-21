@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Jefferson\Documents\NetBeansProjects\Grafil ATM Project\ATM\dist\ATM.jar</jar>
+  <outfile>C:\Users\Jefferson\Documents\NetBeansProjects\Grafil ATM Project\ATM\src\atm\App\ATM.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <classPath>
+    <mainClass>atm.ATM</mainClass>
+    <cp>lib/mysql-connector.jar</cp>
+    <cp>lib/mysql-connector-j-8.1.0.jar</cp>
+    <cp>C:\Users\Jefferson\Documents\NetBeansProjects\Grafil ATM Project\ATM\dist\lib\*</cp>
+    <cp>C:\Users\Jefferson\Documents\NetBeansProjects\Grafil ATM Project\ATM\dist\ATM.jar</cp>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>1.4.0</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>
